@@ -1,0 +1,49 @@
+{
+    "required": ["id", "type"],
+    "id": {
+        "type": "text"
+    },
+	"type" : {
+		"type" : "text",
+		"value" : "WeatherObserved"
+	},
+	"precipitation" : {
+		"type" : "number"
+	},
+	"temperature" : {
+		"type" : "number"
+	},
+	"illuminance" : {
+		"type" : "number"
+	},
+	"relativeHumidity" : {
+		"type" : "number"
+	},
+	"atmosphericPressure" : {
+		"type" : "number"
+	},
+	"pressureTendency" : {
+		"type" : "number"
+	},
+	"windSpeed" : {
+		"type" : "number"
+	},
+	"dateObserved" : {
+		"type" : "dateTime"
+	},
+	"dewPoint" : {
+		"type" : "number"
+	},
+	"windDirection" : {
+		"type" : "number"
+	},
+	"source" : {
+		"type" : "text"
+	},
+	"location" : {
+		"type" : "geo:json"
+	}
+	
+}
+
+

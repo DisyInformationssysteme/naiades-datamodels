@@ -1,0 +1,61 @@
+{
+    "required": ["id", "type"],
+    "id": {
+        "type": "text"
+    },
+	"type" : {
+		"type" : "text",
+		"value" : "WaterQualityObserved"
+	},
+	"pH" : {
+		"type" : "number"
+	},
+	"temperature" : {
+		"type" : "number"
+	},
+	"turbidity" : {
+		"type" : "number"
+	},
+	"freeChlorine" : {
+		"type" : "number"
+	},
+	"waterFlow" : {
+		"type" : "number"
+	},
+	"totoalChlorine" : {
+		"type" : "number"
+	},
+	"conductivity" : {
+		"type" : "number"
+	},
+	"treatmentChlorinateDosage" : {
+		"type" : "number"
+	},
+	"treatmentFiltrationTime" : {
+		"type" : "number"
+	},
+	"redox" : {
+		"type" : "number"
+	},
+	"chlorateEstimation" : {
+		"type" : "number"
+	},
+	"phThresholdHigh" : {
+		"type" : "number"
+	},
+	"phThresholdLow" : {
+		"type" : "number"
+	},
+	"chlorineThresholdHigh" : {
+		"type" : "number"
+	},
+	"chlorineThresholdLow" : {
+		"type" : "number"
+	},
+	"location" : {
+		"type" : "geo:json"
+	}
+	
+}
+
+
