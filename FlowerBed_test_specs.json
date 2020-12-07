@@ -1,0 +1,49 @@
+{
+    "required": ["id", "type"],
+    "id": {
+        "type": "text"
+    },
+	"type" : {
+		"type" : "text",
+		"value" : "FlowerBed"
+	},
+	"flowerType" : {
+		"type" : "text"
+	},
+	"sunExposure" : {
+		"type" : "number"
+	},
+	"dateLastWatering": {
+		"type" : "datetime"
+	},
+	"nextWateringDeadline": {
+		"type" : "datetime"
+	},
+	"nextWateringAmountRecommendation" : {
+		"type" : "number"
+	},
+	"taxon" : {
+		"type" : "text"
+	},
+	"category": {
+		"type" : "enum",
+		"values" : ["plant", "hedge", "lawn"]
+	},
+	"width" : {
+		"type" : "number"
+	},
+	"height" : {
+		"type" : "number"
+	},
+	"depth" : {
+		"type" : "number"
+	},
+	"location" : {
+		"type" : "geo:json"
+	},
+	"refDevice" : {
+		"type" : "text"
+	}	
+}
+
+
