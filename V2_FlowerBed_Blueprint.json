@@ -1,0 +1,27 @@
+{
+    "required": ["id", "type"],
+    "dateLastWatering": {
+        "nav": "attributeType==type&value=value",
+        "attributeType": "DateTime"
+    },
+    "flowerType": {
+        "nav": "attributeType==type&value=value",
+        "attributeType": "Text"
+    },
+    "location": {
+        "nav": "attributeType==type&value=value",
+        "attributeType": "geo:json"
+    },
+
+    "NO2": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {
+            "unitCode": {
+                "type": "Text",
+                "value": "GP"
+            }
+        }
+    },
+
+}
