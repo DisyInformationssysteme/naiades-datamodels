@@ -1,5 +1,4 @@
 {
-    "required": ["id", "type"],
     "id": {
         "type": "text"
     },
