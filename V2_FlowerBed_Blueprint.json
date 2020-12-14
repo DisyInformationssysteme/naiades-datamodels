@@ -1,27 +1,23 @@
 {
-    "required": ["id", "type"],
     "dateLastWatering": {
         "nav": "attributeType==type&value=value",
-        "attributeType": "DateTime"
+        "attributeType": "DateTime",
+        "metadata" : {}
     },
     "flowerType": {
         "nav": "attributeType==type&value=value",
-        "attributeType": "Text"
+        "attributeType": "Text",
+        "metadata" : {}
     },
     "location": {
         "nav": "attributeType==type&value=value",
-        "attributeType": "geo:json"
+        "attributeType": "geo:json",
+        "metadata" : {}
     },
 
     "NO2": {
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "Number",
-        "metadata": {
-            "unitCode": {
-                "type": "Text",
-                "value": "GP"
-            }
-        }
-    },
-
+        "metadata": {}
+    }
 }
