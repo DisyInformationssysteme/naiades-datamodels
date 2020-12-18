@@ -1,23 +1,60 @@
 {
-    "dateLastWatering": {
-        "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "DateTime",
-        "metadata" : {}
-    },
     "flowerType": {
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "Text",
         "metadata" : {}
     },
+	"sunExposure" : {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "Number",
+        "metadata" : {}
+	},
+	"dateLastWatering": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "DateTime",
+        "metadata" : {}
+    },
+	"nextWateringDeadline": {
+		"type" : "DateTime"
+	},
+	"nextWateringAmountRecommendation" : {
+		"nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "Number",
+        "metadata" : {}
+	},
+	"taxon" : {
+		"type" : "text"
+	},
+	"category": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "Enum",
+        "metadata" : {}
+	},
+	"width" : {
+		"nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "number",
+        "metadata" : {}
+	},
+	"height" : {
+		"nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "Number",
+        "metadata" : {}
+	},
+	"depth" : {
+		"nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "number",
+        "metadata" : {}
+	},
     "location": {
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "geo:json",
         "metadata" : {}
     },
-
-    "NO2": {
+	"refDevice" : {
         "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "Number",
-        "metadata": {}
-    }
+		"attributeType" : "text",
+        "metadata" : {}
+	}	
+    
+    
 }
