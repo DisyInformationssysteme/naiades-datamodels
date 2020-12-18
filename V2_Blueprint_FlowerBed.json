@@ -5,45 +5,49 @@
         "metadata" : {}
     },
 	"sunExposure" : {
-        "nav": "attributeType==type&metadata==metadata&value=value",
+        	"nav": "attributeType==type&metadata==metadata&value=value",
 		"attributeType" : "Number",
-        "metadata" : {}
+        	"metadata" : {}
 	},
 	"dateLastWatering": {
-        "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "DateTime",
-        "metadata" : {}
+        	"nav": "attributeType==type&metadata==metadata&value=value",
+        	"attributeType": "DateTime",
+        	"metadata" : {}
     },
 	"nextWateringDeadline": {
-		"type" : "DateTime"
+		"nav": "attributeType==type&metadata==metadata&value=value",
+        	"attributeType": "DateTime",
+        	"metadata" : {}
 	},
 	"nextWateringAmountRecommendation" : {
 		"nav": "attributeType==type&metadata==metadata&value=value",
 		"attributeType" : "Number",
-        "metadata" : {}
+        	"metadata" : {}
 	},
 	"taxon" : {
-		"type" : "text"
+		"nav": "attributeType==type&metadata==metadata&value=value",
+        	"attributeType": "Text",
+        	"metadata" : {}
 	},
 	"category": {
-        "nav": "attributeType==type&metadata==metadata&value=value",
+        	"nav": "attributeType==type&metadata==metadata&value=value",
 		"attributeType" : "Enum",
-        "metadata" : {}
+        	"metadata" : {}
 	},
 	"width" : {
 		"nav": "attributeType==type&metadata==metadata&value=value",
-		"attributeType" : "number",
+		"attributeType" : "Number",
         "metadata" : {}
 	},
 	"height" : {
 		"nav": "attributeType==type&metadata==metadata&value=value",
 		"attributeType" : "Number",
-        "metadata" : {}
+        	"metadata" : {}
 	},
 	"depth" : {
 		"nav": "attributeType==type&metadata==metadata&value=value",
-		"attributeType" : "number",
-        "metadata" : {}
+		"attributeType" : "Number",
+        	"metadata" : {}
 	},
     "location": {
         "nav": "attributeType==type&metadata==metadata&value=value",
@@ -51,9 +55,9 @@
         "metadata" : {}
     },
 	"refDevice" : {
-        "nav": "attributeType==type&metadata==metadata&value=value",
-		"attributeType" : "text",
-        "metadata" : {}
+        	"nav": "attributeType==type&metadata==metadata&value=value",
+		"attributeType" : "Text",
+        	"metadata" : {}
 	}	
     
     
