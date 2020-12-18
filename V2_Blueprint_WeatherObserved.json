@@ -1,10 +1,55 @@
 {
-    "dateLastWatering": {
+    "precipitation": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "temperature": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "illuminance": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "relativeHumidity": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "atmosphericPressure": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "pressureTendency": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "windSpeed": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "dateObserved": {
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "DateTime",
         "metadata" : {}
     },
-    "flowerType": {
+    "dewPoint": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "windDirection": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "source": {
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "Text",
         "metadata" : {}
@@ -13,11 +58,5 @@
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "geo:json",
         "metadata" : {}
-    },
-
-    "NO2": {
-        "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "Number",
-        "metadata": {}
     }
 }
