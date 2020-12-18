@@ -6,17 +6,27 @@
 		"type" : "text",
 		"value" : "FlowerBed"
 	},
+ 	"width" : {
+		"type" : "number"
+	},
 	"flowerType" : {
 		"type" : "text"
 	},
-	"sunExposure" : {
-		"type" : "number"
+ 	"category": {
+		"type" : "enum",
+		"values" : ["plant", "hedge", "lawn"]
 	},
 	"dateLastWatering": {
 		"type" : "datetime"
 	},
+ 	"location" : {
+		"type" : "geo:json"
+	},
 	"nextWateringDeadline": {
 		"type" : "datetime"
+	},
+	 "sunExposure" : {
+		"type" : "number"
 	},
 	"nextWateringAmountRecommendation" : {
 		"type" : "number"
@@ -24,22 +34,13 @@
 	"taxon" : {
 		"type" : "text"
 	},
-	"category": {
-		"type" : "enum",
-		"values" : ["plant", "hedge", "lawn"]
-	},
-	"width" : {
-		"type" : "number"
-	},
 	"height" : {
 		"type" : "number"
 	},
 	"depth" : {
 		"type" : "number"
 	},
-	"location" : {
-		"type" : "geo:json"
-	},
+	
 	"refDevice" : {
 		"type" : "text"
 	}	
