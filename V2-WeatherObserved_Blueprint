@@ -1,0 +1,23 @@
+{
+    "dateLastWatering": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "DateTime",
+        "metadata" : {}
+    },
+    "flowerType": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Text",
+        "metadata" : {}
+    },
+    "location": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "geo:json",
+        "metadata" : {}
+    },
+
+    "NO2": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    }
+}
