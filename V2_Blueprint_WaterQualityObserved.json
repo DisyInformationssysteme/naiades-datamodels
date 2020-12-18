@@ -1,23 +1,82 @@
 {
-    "dateLastWatering": {
+    "pH": {
         "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "DateTime",
-        "metadata" : {}
+        "attributeType": "Number",
+        "metadata": {}
     },
-    "flowerType": {
+    "temperature": {
         "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "Text",
-        "metadata" : {}
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "turbidity": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "freeChlorine": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "waterFlow": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "totalChlorine": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "conductivity": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "treatmentChlorinateDosage": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "treatmentFiltrationTime": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "redox": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "chlorateEstimation": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "phThresholdHigh": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "phThresholdLow": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "chlorineThresholdHigh": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
+    },
+    "chlorineThresholdLow": {
+        "nav": "attributeType==type&metadata==metadata&value=value",
+        "attributeType": "Number",
+        "metadata": {}
     },
     "location": {
         "nav": "attributeType==type&metadata==metadata&value=value",
         "attributeType": "geo:json",
         "metadata" : {}
-    },
-
-    "NO2": {
-        "nav": "attributeType==type&metadata==metadata&value=value",
-        "attributeType": "Number",
-        "metadata": {}
-    }
+    }    
 }
